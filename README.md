@@ -6,3 +6,4 @@ and if you run out of time you are taken to the end screen. Your score is saved 
 I was not able to get the save high scores functionality to work. I went ahead and included a text box for entering your name, as well as being unable to click the box if you
 haven't put anything into the display field.
 
+![screenshot](https://i.imgur.com/uZmbiBH.png)
