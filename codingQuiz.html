@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quizMain.css">
+    <link rel="stylesheet" href="quisStyle.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="game" class="justify-center flex-column">
+            <div class="hud">
+
+                <div class="hud-item">
+                    <p class = "hud-prefix">
+                        Question number
+                    </p>
+                    <h1 class = "hude-maint-text" id="questionCounter">
+                        1/4
+                    </h1>
+                </div>
+                <div class="hud-item">
+                    <p class = "hud-prefix">
+                        Score
+                    </p>
+                    <h1 class = "hude-maint-text" id="score">
+                        0
+                    </h1>
+                </div>
+                <div>
+                    <p class="hud-prefix">You have <span id="time">05:00</span> to complete this quiz!</p>
+                </div>
+            </div>
+            <h2 id="question">Coding Questions</h2>
+            <div class="choice-container">
+                <p class="choice-letter">A </p>    
+                <p class="choice-response" data-number="1">Response1</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-letter">B </p>
+                <p class="choice-response" data-number="2">Response 2</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-letter">C </p>
+                <p class="choice-response "data-number="3">Response 3</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-letter">D </p>
+                <p class="choice-response" data-number="4">Response 4</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="game.js"></script>
+</body>
+<footer>
+    <div id="footer">
+        <p class="text-light bg-dark"> &copy; Copyright with love and care by Billy D</p>
+    </div>
+</footer>
+
+</html>
